@@ -1,0 +1,9 @@
+version: 3
+projects:
+{% for env in cookiecutter.envs %}
+  - name: {{ cookiecutter.project_name }}-{{ env }}
+    dir: envs/{{ env }}
+    autoplan:
+      enabled: true
+      when_modified: ["*.tf", "*.tfvars"]
+{% endfor %}

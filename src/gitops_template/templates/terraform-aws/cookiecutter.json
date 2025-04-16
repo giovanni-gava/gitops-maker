@@ -1,0 +1,6 @@
+{
+    "project_name": "my-project",
+    "envs": ["dev", "staging", "prod"],
+    "ci": "gitlab"
+  }
+  

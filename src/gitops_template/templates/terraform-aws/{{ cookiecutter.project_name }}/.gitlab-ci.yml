@@ -1,0 +1,17 @@
+stages:
+  - plan
+  - apply
+
+plan:
+  stage: plan
+  script:
+    - echo "Planning {{ cookiecutter.project_name }}"
+  only:
+    - merge_requests
+
+apply:
+  stage: apply
+  script:
+    - echo "Applying {{ cookiecutter.project_name }}"
+  only:
+    - main

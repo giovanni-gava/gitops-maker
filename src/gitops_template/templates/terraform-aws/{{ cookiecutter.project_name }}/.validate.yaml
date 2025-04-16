@@ -1,0 +1,10 @@
+required_files:
+  - README.md
+  - atlantis.yaml
+  - .gitlab-ci.yml
+
+required_dirs:
+  - modules
+  - envs
+
+check_tf_in_envs: true

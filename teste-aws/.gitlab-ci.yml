@@ -1,0 +1,17 @@
+stages:
+  - plan
+  - apply
+
+plan:
+  stage: plan
+  script:
+    - echo "Planning teste-aws"
+  only:
+    - merge_requests
+
+apply:
+  stage: apply
+  script:
+    - echo "Applying teste-aws"
+  only:
+    - main

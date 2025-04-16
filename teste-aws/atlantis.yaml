@@ -1,0 +1,21 @@
+version: 3
+projects:
+
+  - name: teste-aws-d
+    dir: envs/d
+    autoplan:
+      enabled: true
+      when_modified: ["*.tf", "*.tfvars"]
+
+  - name: teste-aws-e
+    dir: envs/e
+    autoplan:
+      enabled: true
+      when_modified: ["*.tf", "*.tfvars"]
+
+  - name: teste-aws-v
+    dir: envs/v
+    autoplan:
+      enabled: true
+      when_modified: ["*.tf", "*.tfvars"]
+
