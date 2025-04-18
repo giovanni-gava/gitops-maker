@@ -2,16 +2,13 @@
 
 > Scaffold generator CLI to bootstrap GitOps-ready repositories with support for ArgoCD, Kustomize, Helm, Terraform, Atlantis, and multi-cloud environments.
 
-[![License](https://img.shields.io/github/license/giovanni-gava/gitops-maker?color=blue)](LICENSE)
-[![CI Status](https://img.shields.io/github/actions/workflow/status/giovanni-gava/gitops-maker/ci.yml?branch=main)](https://github.com/giovanni-gava/gitops-maker/actions)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/gitops-maker)](https://pypi.org/project/gitops-maker/)
-[![GitHub Stars](https://img.shields.io/github/stars/giovanni-gava/gitops-maker?style=social)](https://github.com/giovanni-gava/gitops-maker/stargazers)
+&#x20; &#x20;
 
 ---
 
 ## 🌟 Overview
 
-**`gitops-maker`** is a modular, extensible, and production-ready CLI tool built in Python to generate standardized GitOps repositories. It accelerates the setup of IaC and deployment environments across multiple cloud providers and CI/CD platforms — following best practices in GitOps, infrastructure modularity, and security.
+`` is a modular, extensible, and production-ready CLI tool built in Python to generate standardized GitOps repositories. It accelerates the setup of IaC and deployment environments across multiple cloud providers and CI/CD platforms — following best practices in GitOps, infrastructure modularity, and security.
 
 ---
 
@@ -46,12 +43,12 @@ poetry run python src/gitops_template/main.py generate new --stack terraform-aws
 
 The following stacks are supported or planned:
 
-| Stack              | Status     | Notes                                |
-|-------------------|------------|--------------------------------------|
-| terraform-aws      | ✅ Stable  | Multi-env, Atlantis, GitLab CI ready |
-| helm-kustomize     | 🔧 WIP     | GitOps via ArgoCD & Helm             |
-| terraform-gcp      | 🧰 Beta    | GCP modules + GitHub Actions         |
-| argo-apps          | 🔧 WIP     | Kustomize multi-app deployment       |
+| Stack          | Status   | Notes                                |
+| -------------- | -------- | ------------------------------------ |
+| terraform-aws  | ✅ Stable | Multi-env, Atlantis, GitLab CI ready |
+| helm-kustomize | 🔧 WIP   | GitOps via ArgoCD & Helm             |
+| terraform-gcp  | 🧰 Beta  | GCP modules + GitHub Actions         |
+| argo-apps      | 🔧 WIP   | Kustomize multi-app deployment       |
 
 ---
 
@@ -96,9 +93,9 @@ Please follow the project conventions and run `pre-commit` before pushing.
 
 ## 👨‍💼 Author
 
-**Giovanni Gava**  
-DevOps Engineer | Software Engineer | Cloud Architect | AWS | GCP | Python & Golang Builder | Kubernetes | Terraform | CI/CD Evangelist | Infra as Code Expert | Strategic Problem Solver | Creative Mind  
-[LinkedIn →](https://www.linkedin.com/in/giovanni-gava-21338115a/)  
+**Giovanni Gava**\
+DevOps | Platform Engineer | Software Architect\
+[LinkedIn →](https://www.linkedin.com/in/giovanni-gava-21338115a/)\
 [GitHub →](https://github.com/giovanni-gava)
 
 ---
